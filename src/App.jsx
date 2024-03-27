@@ -1,9 +1,10 @@
 import BarChart from "./components/BarChart";
+import CSVUploader from "./components/Test";
 
 export default function App() {
   return (
-    <div className="box">
-      <BarChart />
+    <div className="">
+      <CSVUploader />
     </div>
   );
 }
